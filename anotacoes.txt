@@ -1,0 +1,21 @@
+console.log("Mensagem normal");
+console.info("eu estou informando que vou surtar em 4 minutis")
+console.warn("c pa vai dar ruim")
+console.error("eita, deu ruim em")
+
+sao todos (conhecido ate o moomentos) console.algo, e cada um tem sua funcionalidade
+*error: erros critircos
+*warn:vai dar errado daq a pouco
+*console: informaçoes 
+
+---------------------------------------------------
+console.table([
+{
+    id:1, tarefa: "estudarJS"
+},
+{
+    id:2, tarefa: "estudarHTML" 
+}
+])
+
+Apresenta, em forma de array, as informaçoes.
