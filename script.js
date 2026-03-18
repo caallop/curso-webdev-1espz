@@ -106,3 +106,16 @@ console.table(tasks);
 
 let hoje = new Date ("03-18-2026")
 console.log(hoje)
+
+let a = 1
+let b = 2
+
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+
+a = a + 1
+
+console.log(a%b)
+console.log(a**b)
