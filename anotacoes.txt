@@ -19,3 +19,8 @@ console.table([
 ])
 
 Apresenta, em forma de array, as informaçoes.
+
+
+git add .
+git commit -m "<Mensagem>"
+git push origin 
