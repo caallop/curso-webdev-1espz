@@ -134,12 +134,10 @@ console.log(a >= b);   // false (maior ou igual)
 //     break;
 // }
 
-
 //  for (let i = 1;i = 50000000000000000000000000;i++){
 //  console.log("infinito")
 
 // }
-
 
 // let contador = -10
 // while (contador<100) {
@@ -154,3 +152,42 @@ console.log(a >= b);   // false (maior ou igual)
 //     numero--
 // } while (numero > 0)
 
+//exercicio da apostila (link na linha 1)
+
+// let acesso = 1;
+
+// switch (acesso) {
+//   case 1:
+//     console.log("nivel de acesso: negado")
+//     break;
+//   case 2:
+//     console.log("nivel de acesso: parcial")
+//     break;
+//   case 3:
+//     console.log("nivel de acesso: maximo")
+//     break;
+//   default:
+//     console.log("nivel de acesso: desconhecido (erro)")
+//     break;
+// }
+
+//exercicio 2 -------------------------------------------------------------
+let nota = 10;
+
+switch (nota) {
+  case 10:
+    console.log("Nota Máxima");
+    break;
+  case 8 || 9:
+    console.log("muito bom");
+    break;
+  case 6 || 7:
+    console.log("bom");
+    break;
+  case 5:
+    console.log("passou");
+    break;
+  default:
+    console.log("nota: nao passou");
+    break;
+}
