@@ -42,7 +42,7 @@ if (casa == 1 ){
 
 console.timeEnd() 
 */
-
+/* 
 let texto = "ola";
 
 console.log("nome = " + texto + " tipo = " + typeof texto);
@@ -119,3 +119,4 @@ a = a + 1
 
 console.log(a%b)
 console.log(a**b)
+*/
