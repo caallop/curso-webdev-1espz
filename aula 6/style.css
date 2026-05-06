@@ -1,0 +1,13 @@
+img{
+    height: 160px;
+}
+
+.oculto{
+    display: none;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+}
