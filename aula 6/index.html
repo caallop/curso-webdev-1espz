@@ -38,6 +38,25 @@
    <br>
   <ul id="lista-tarefas"></ul>
 
+
+  <form id="formTarefa">
+  <input id="tarefa" placeholder="Digite uma tarefa" />
+  <button>Adicionar</button>
+</form>
+<ul id="lista"></ul>
+<script>
+formTarefa.onsubmit = (e) => {
+  e.preventDefault();
+  const li = document.createElement("li");
+  li.textContent = tarefa.value;
+  const btn = document.createElement("button");
+  btn.textContent = "Excluir";
+  btn.onclick = () => li.remove();
+  li.appendChild(btn);
+  lista.appendChild(li);
+  tarefa.value = "";
+};
+</script>
   <script src="script.js"></script>
 </body>
 
